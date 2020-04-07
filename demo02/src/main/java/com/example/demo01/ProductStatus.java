@@ -85,8 +85,8 @@ public class ProductStatus extends LinearLayout implements View.OnClickListener{
             mQgorientation = typedArray.getInt(R.styleable.product_status_qgorientation, 0);
             mQggravity = typedArray.getInt(R.styleable.product_status_qggravity, 0x01);
 //
-//            // - TODO 复合类型, 比较复杂, 据情况而定
-            // mQg_background = typedArray.getDrawable(R.styleable.product_status_qg_background);
+//            // - 复合类型, 比较复杂, 据情况而定,如果赋值的 drawable 是 selctor 类型, 则需要处理后在使用 product_status中 eg. app:qg_background="@drawable/item_title"
+             mQg_background = typedArray.getDrawable(R.styleable.product_status_qg_background);
 
         }
         // - 回收  typedArray

@@ -36,7 +36,7 @@
         app:qgpivotX="200%"
         app:qgorientation="vertical"
         app:qggravity="left|top"
-        app:qg_background="@drawable/item_title"
+        app:qg_background="@drawable/ic_launcher_background"
         />
 
 </LinearLayout>
