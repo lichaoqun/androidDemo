@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ShopFragment">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/nav_hei">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:name="com.example.demo01.ShopTopFragment"
+                android:id="@+id/ShopTopFragment"
+                tools:layout="@layout/fragment_shop_top" />
+
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:name="com.example.demo01.ShopBottomFragment"
+                android:id="@+id/ShopBottomFragment"
+                tools:layout="@layout/fragment_shop_bottom" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

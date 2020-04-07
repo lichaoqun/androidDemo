@@ -1,0 +1,25 @@
+<resources>
+    <declare-styleable name="product_status">
+        <attr name="qgbackground" format="reference" />
+        <attr name="qgtextColor" format="color" />
+        <attr name="qgfocusable" format="boolean" />
+        <attr name="qglayout_width" format="dimension" />
+        <attr name="qgfromAlpha" format="float" />
+        <attr name="qgframesCount" format="integer" />
+        <attr name="qgtext" format="string" />
+        <attr name="qgpivotX" format="fraction" />
+        <attr name="qgorientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="qggravity">
+
+            <flag name="top" value="0x01" />
+            <flag name="bottom" value="0x02" />
+            <flag name="left" value="0x04" />
+            <flag name="right" value="0x08" />
+            <flag name="center_vertical" value="0x16" />
+        </attr>
+        <attr name="qg_background" format="reference|color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:padding="20dp"
+
+    >
+
+    <ImageView
+        android:id="@+id/icon_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/yasuo"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/icon_img"
+        android:layout_marginLeft="12dp"
+        android:orientation="vertical"
+        >
+
+<!-- 使用style 布局-->
+        <TextView
+            android:id="@+id/title_home"
+            style="@style/maintitle" />
+
+        <TextView
+            android:id="@+id/subTitle_home"
+            style="@style/subtitle" />
+        
+    </LinearLayout>
+        
+
+</RelativeLayout>

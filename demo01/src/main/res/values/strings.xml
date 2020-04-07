@@ -1,0 +1,23 @@
+
+<!--字符串资源和字符串数组资源-->
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="loginTitle">登录</string>
+    <string-array name="titles">
+        <item>这是第01个标题</item>
+        <item>这是第02个标题</item>
+        <item>这是第03个标题</item>
+        <item>这是第04个标题</item>
+        <item>这是第05个标题</item>
+        <item>这是第06个标题</item>
+        <item>这是第07个标题</item>
+        <item>这是第08个标题</item>
+        <item>这是第09个标题</item>
+        <item>这是第10个标题</item>
+        <item>这是第11个标题</item>
+        <item>这是第12个标题</item>
+        <item>这是第13个标题</item>
+        <item>这是第14个标题</item>
+        <item>这是第15个标题</item>
+    </string-array>
+</resources>

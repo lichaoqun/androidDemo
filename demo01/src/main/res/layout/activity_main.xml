@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="80dp"
+    tools:context=".MainActivity">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="80dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:orientation="horizontal">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:gravity="center_vertical"
+           android:layout_marginRight="16dp"
+           android:text="账号 : "
+           />
+
+       <EditText
+           android:id="@+id/user_name"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:hint=" 请输入账号 : "/>
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginRight="16dp"
+            android:text="密码 : "/>
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="请输入密码"/>
+    </LinearLayout>
+
+
+<!--    按钮使用圆角和边框和选中非选中的颜色变化-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/loginBtn"
+            android:background="@drawable/selector_button_bg_color"
+            android:textColor="@drawable/selector_button_text_color"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:textSize="20sp"
+            android:text="@string/loginTitle"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

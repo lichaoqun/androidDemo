@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShopTopFragment"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/shouji_1"
+                android:scaleType="center"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@mipmap/shouji_2" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@mipmap/shouji_3"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@mipmap/shouji_4"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/shouji_5"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGray"
+        android:text="三星手机，是三星集团研发的智能手机，三星手机真正开始风靡全球是从A系列开始。A系列最初为折叠手机系列，最早三星SGH-A188（白色外形）、SGH-A288（内外双屏）都是经典之作。
+Galaxy系列 [1]  可以说是三星手机迄今为止最为成功的一个系列。在Galaxy全系列中三星采用了Android的智能手机操作系统。
+2016年12月9日（北京时间），三星准备在美国升级软件，永久禁用Galaxy Note7手机。2019年10月，三星停止在中国的智能手机生产，关闭在中国的最后一家手机工厂。三星准备在美国升级软件，永久禁用Galaxy Note7手机。2019年10月，三星停止在中国的智能手机生产，关闭在中国的最后一家手机工厂。三星准备在美国升级软件，永久禁用Galaxy Note7手机。2019年10月，三星停止在中国的智能手机生产，关闭在中国的最后一家手机工厂。三星准备在美国升级软件，永久禁用Galaxy Note7手机。2019年10月，三星停止在中国的智能手机生产，关闭在中国的最后一家手机工厂。三星准备在美国升级软件，永久禁用Galaxy Note7手机。2019年10月，三星停止在中国的智能手机生产，关闭在中国的最后一家手机工厂。三星准备在美国升级软件，永久禁用Galaxy Note7手机。2019年10月，三星停止在中国的智能手机生产，关闭在中国的最后一家手机工厂。三星准备在美国升级软件，永久禁用Galaxy Note7手机。2019年10月，三星停止在中国的智能手机生产，关闭在中国的最后一家手机工厂。三星准备在美国升级软件，永久禁用Galaxy Note7手机。2019年10月，三星停止在中国的智能手机生产，关闭在中国的最后一家手机工厂。三星准备在美国升级软件，永久禁用Galaxy Note7手机。2019年10月，三星停止在中国的智能手机生产，关闭在中国的最后一家手机工厂。三星准备在美国升级软件，永久禁用Galaxy Note7手机。2019年10月，三星停止在中国的智能手机生产，关闭在中国的最后一家手机工厂。三星准备在美国升级软件，永久禁用Galaxy Note7手机。2019年10月，三星停止在中国的智能手机生产，关闭在中国的最后一家手机工厂。三星准备在美国升级软件，永久禁用Galaxy Note7手机。2019年10月，三星停止在中国的智能手机生产，关闭在中国的最后一家手机工厂。三星准备在美国升级软件，永久禁用Galaxy Note7手机。2019年10月，三星停止在中国的智能手机生产，关闭在中国的最后一家手机工厂。"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+
+</LinearLayout>
