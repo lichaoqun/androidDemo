@@ -75,7 +75,7 @@ public class ProductStatus extends LinearLayout implements View.OnClickListener{
             * */
 
             Drawable mQgbackground = typedArray.getDrawable(R.styleable.product_status_qgbackground);
-            mQgtextColor = typedArray.getColor(R.styleable.product_status_qg_background, Color.WHITE);
+            mQgtextColor = typedArray.getColor(R.styleable.product_status_qgtextColor, Color.WHITE);
             mQgfocusable = typedArray.getBoolean(R.styleable.product_status_qgfocusable, true);
             mQglayout_width = typedArray.getDimension(R.styleable.product_status_qglayout_width, 0);
             mQgfromAlpha = typedArray.getFloat(R.styleable.product_status_qgfromAlpha, 0);
@@ -85,7 +85,7 @@ public class ProductStatus extends LinearLayout implements View.OnClickListener{
             mQgorientation = typedArray.getInt(R.styleable.product_status_qgorientation, 0);
             mQggravity = typedArray.getInt(R.styleable.product_status_qggravity, 0x01);
 //
-//            // - 复合类型, 比较复杂, 据情况而定,如果赋值的 drawable 是 selctor 类型, 则需要处理后在使用 product_status中 eg. app:qg_background="@drawable/item_title"
+//            // - 复合类型, 比较复杂, 据情况而定
              mQg_background = typedArray.getDrawable(R.styleable.product_status_qg_background);
 
         }

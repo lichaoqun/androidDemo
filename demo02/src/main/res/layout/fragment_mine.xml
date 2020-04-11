@@ -10,7 +10,6 @@
 
 <!--  引用自定义的 xml-->
     <include
-        android:layout_marginTop="@dimen/nav_hei"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:id="@+id/user_avatar"
@@ -36,7 +35,7 @@
         app:qgpivotX="200%"
         app:qgorientation="vertical"
         app:qggravity="left|top"
-        app:qg_background="#FF3F16"
+        app:qg_background="@drawable/ic_launcher_background"
         />
 
 </LinearLayout>
