@@ -87,6 +87,8 @@
 
     </LinearLayout>
 
+
+<!-- 在 xml 中应使用  FrameLayout 占位 fragment, 因为 fragment 会将 view 层叠叠加 -->
     <FrameLayout
         android:id="@+id/fragment"
         android:layout_width="match_parent"

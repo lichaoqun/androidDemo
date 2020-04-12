@@ -13,6 +13,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <!--  直接在 xml 中使用fragment-->
             <fragment
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -20,6 +21,7 @@
                 android:id="@+id/ShopTopFragment"
                 tools:layout="@layout/fragment_shop_top" />
 
+            <!-- 直接在 xml 中使用fragment-->
             <fragment
                 android:layout_width="match_parent"
                 android:layout_height="40dp"

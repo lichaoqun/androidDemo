@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--这里的根节点 使用 LinearLayout 是因为 这时候往 LinearLayout 加子视图的时候, 因为LinearLayout属性的关系, 会直接往自定义的 tabbar下边加, 不用在手动下移 80dp 的距离-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
